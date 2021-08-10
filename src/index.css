@@ -1,9 +1,23 @@
 :root {
-    --primary: #31d475;
+    --primary: #36b598;
     --background: #F1F1F1;
     --surface: #fff;
+
+    --on-primary: #FFF;
+    --on-surface: #FFF;
 }
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.theme-dark {
+    --background: #1d1d1d;
+    --surface: #585858;
+    --on-surface: #FFF;
+}
+
+.theme-purple {
+    --primary: #5e35b1;
+    --on-primary: #FFF;
+}

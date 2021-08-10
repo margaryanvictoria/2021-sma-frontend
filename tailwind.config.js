@@ -6,7 +6,9 @@ module.exports = {
       colors: {
         primary: "var(--primary)",
         background: "var(--background)",
-        surface: "var(--surface)"
+        surface: "var(--surface)",
+        "on-primary": "var(--on-primary)",
+        "on-surface": "var(--on-surface)"
       }
     },
   },

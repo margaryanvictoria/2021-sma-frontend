@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 const Signup = () => {
     return (
@@ -15,8 +16,10 @@ const Signup = () => {
                         className='focus:outline-none border border-primary px-2 py-1 rounded-lg' />
                     </div>
                     <div className="flex space-x-3">
-                        <button className='w-full px-2 py-1 rounded-full border border-primary text-primary'>Login</button>
-                        <button className='w-full px-2 py-1 rounded-full bg-primary text-white'>Sign Up</button>
+                        <Link to="/" className='w-full px-2 py-1 rounded-full border border-primary text-primary'>
+                            Login
+                        </Link>
+                        <button className='w-full px-2 py-1 rounded-full bg-primary text-on-primary'>Sign Up</button>
                     </div>
                 </div>
             </div>
